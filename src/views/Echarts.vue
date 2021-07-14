@@ -1,5 +1,6 @@
 <template>
   <div id="myChart" :style="{width: '800px', height: '600px'}"></div>
+<!-- div就是整体的窗口-->
 </template>
 <script>
 export default {
@@ -11,8 +12,8 @@ export default {
     myChart.setOption({
       title: {
         text: '水果销量统计',
-        left: 'center',
-        top: 20,
+        left: 'center', //位置
+        top: 20,  //距离
         textStyle: {
           color: '#555555'
         }
